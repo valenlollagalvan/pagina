@@ -71,6 +71,8 @@ body {
 .social img {
     margin: 4px 0 0 4px;
     width: 30px;
+    border-radius: 50%;
+
 }
 .menu .navbar ul li {
     position: relative;
@@ -102,6 +104,7 @@ body {
     align-items: center;
     padding-top: 100px;
     margin: 55px;
+    
 }
 
 .productos__item {
@@ -125,7 +128,9 @@ body {
 
 .product__section-img {
     padding-bottom: 25px;
+
 }
+
 .product__section-img img {
     width: 200px;
 }
@@ -134,10 +139,17 @@ body {
 
 
 footer {
-    padding: 15px 150px;
     display: flex;
-    justify-content: space-between;
+    width: 100vw;
     background-color: #fdedff;
+    justify-content: center;
+    
+}
+
+footer img {
+    width: 20px;
+    padding-right: 20px;
+    margin:0px 40px;
 }
 .links {
     color: red;
@@ -145,8 +157,10 @@ footer {
     font-size: 20px;
 }
 
+
 .links ul li a {
     color: black;
     font-size: 16px;
     margin-bottom: 5px;
+
 }
